@@ -82,11 +82,13 @@
                         <scanTarget>src/main/resources/struts.xml</scanTarget>
                         <scanTarget>src/main/resources/example.xml</scanTarget>
                     </scanTargets>
-                        <connectors>
-                            <connector implementation="org.mortbay.jetty.ajp.Ajp13SocketConnector">
-                                <port>8009</port>
-                            </connector>
-                        </connectors>
+<!--
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.ajp.Ajp13SocketConnector">
+                            <port>8009</port>
+                        </connector>
+                    </connectors>
+-->
                 </configuration>
                 <dependencies>
                     <dependency>
