@@ -1,5 +1,7 @@
-struts2-tiles-demo
+Struts2 Tiles demo
 ==================
+
+[![Build Status](https://travis-ci.org/lukaszlenart/struts2-tiles-demo.png)](https://travis-ci.org/lukaszlenart/struts2-tiles-demo)
 
 Simple Struts2 project with Tiles
 
