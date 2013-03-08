@@ -9,10 +9,16 @@
     <name>struts2-tiles</name>
 
     <properties>
-        <struts2.version>2.3.8-SNAPSHOT</struts2.version>
+        <struts2.version>2.3.9-SNAPSHOT</struts2.version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.apache.struts.xwork</groupId>
+            <artifactId>xwork-core</artifactId>
+            <version>${struts2.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.struts</groupId>
@@ -43,6 +49,12 @@
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
             <version>1.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
 
         <dependency>
