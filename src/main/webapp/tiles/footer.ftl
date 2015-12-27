@@ -6,4 +6,6 @@
 
 <@s.a href="%{url}">English</@s.a>
 
+EL: ${url}
+
 <@tiles.insertAttribute name="title"/>

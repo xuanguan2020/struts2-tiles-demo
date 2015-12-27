@@ -18,3 +18,5 @@
         <s:a href="%{url}">Espanol</s:a>
     </li>
 </ul>
+
+EL: ${url}

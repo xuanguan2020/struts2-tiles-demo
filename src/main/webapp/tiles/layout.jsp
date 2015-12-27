@@ -7,7 +7,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>
-        <tiles:insertAttribute name="title" ignore="true"/>
+        <tiles:getAsString name="title"/>
     </title>
 </head>
 <body>
