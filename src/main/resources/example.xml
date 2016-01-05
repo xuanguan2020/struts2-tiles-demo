@@ -25,6 +25,10 @@
             <result type="tiles">hello3</result>
         </action>
 
+        <action name="HelloWorld4" class="org.demo.example.HelloWorld">
+            <result type="tiles">hello4</result>
+        </action>
+
         <action name="Login_*" method="{1}" class="org.demo.example.Login">
             <result name="input">/example/Login.jsp</result>
             <result type="redirectAction">Menu</result>
