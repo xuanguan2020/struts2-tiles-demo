@@ -14,8 +14,8 @@
         <put-attribute name="footer" value="/tiles/footer.ftl"/>
     </definition>
 
-    <definition name="hello4" extends="baseLayoutFtl">
-        <put-attribute name="title" value="Hello" cascade="true"/>
+    <definition name="hello4" extends="baseLayoutFtl" templateType="freemarker">
+        <put-attribute name="title" value="Hello 4" cascade="true"/>
         <put-attribute name="body" value="/example/HelloWorld.jsp"/>
     </definition>
 
