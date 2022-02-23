@@ -7,7 +7,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>struts2-tiles</name>
-
     <properties>
         <struts2.version>2.5.10</struts2.version>
         <log4j2.version>2.13.3</log4j2.version>
